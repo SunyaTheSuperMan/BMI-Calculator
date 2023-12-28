@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                     textView.setText("Over Weight: " + bmi);
                     card.setCardBackgroundColor(Color.parseColor("#FFA500"));
                 } else if (bmi>18) {
-                    textView.setText("Normal Weigt :"+bmi);
+                    textView.setText("Normal Weight :"+bmi);
                     card.setCardBackgroundColor(Color.parseColor("#19B81F"));
                 }
                 else {
